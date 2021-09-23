@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+    <style>
+        .img-base {
+            position: relative;
+            width: 250px;
+            height: 250px;
+        }
+
+        .img-base .item {
+            position: absolute;
+            z-index: 1;
+            width: 250px;
+            height: 250px;
+        }
+
+        .img-base .ribbon {
+            margin-top: 0;
+            position: absolute;
+            z-index: 2;
+            width: 50px;
+            height: 50px;
+            bottom: 0;
+            right: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="img-base">
+            <img class="item" src="../assets/img/ejercicio-6.png" alt="item">
+            <img class="ribbon" src="../assets/img/ejercicio-6_ribbon.png" alt="item">
+        </div>
+    </main>
+</body>
+
+</html>

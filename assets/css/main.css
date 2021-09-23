@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/** Ejercicio 3 */
+.españa {
+  width: 500px;
+  height: 300px;
+}
+.españa .rojo {
+  width: 500px;
+  height: 25%;
+  background-color: red;
+}
+.españa .amarillo {
+  width: 500px;
+  height: 50%;
+  background-color: yellow;
+}
+
+.dinamarca {
+  display: block;
+  width: 500px;
+  height: 300px;
+}
+.dinamarca .linea_1 {
+  background: linear-gradient(to right, red 30%, white 30% 40%, red 40%);
+  width: 100%;
+  height: 40%;
+}
+.dinamarca .linea_2 {
+  width: 100%;
+  height: 20%;
+}
+.dinamarca .linea_3 {
+  background: linear-gradient(to right, red 30%, white 30% 40%, red 40%);
+  width: 100%;
+  height: 40%;
+}
+
+.emiratos {
+  display: block;
+  width: 500px;
+  height: 300px;
+}
+.emiratos .linea_1 {
+  background: linear-gradient(to right, red 25%, green 25%);
+  width: 100%;
+  height: 33%;
+}
+.emiratos .linea_2 {
+  background: linear-gradient(to right, red 25%, white 25%);
+  width: 100%;
+  height: 34%;
+}
+.emiratos .linea_3 {
+  background: linear-gradient(to right, red 25%, black 25%);
+  width: 100%;
+  height: 33%;
+}
+
+.japon {
+  box-sizing: border-box;
+  background-color: white;
+  width: 500px;
+  height: 300px;
+}
+.japon .redondo_rojo {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-left: 150px;
+  float: left;
+}
+
+.dinamarca-cajas {
+  box-sizing: border-box;
+  background-color: red;
+  width: 500px;
+  height: 300px;
+}
+.dinamarca-cajas .linea-vertical {
+  box-sizing: border-box;
+  position: absolute;
+  height: 300px;
+  width: 40px;
+  background-color: white;
+  margin-left: 150px;
+}
+.dinamarca-cajas .linea-horizontal {
+  box-sizing: border-box;
+  position: absolute;
+  height: 40px;
+  width: 500px;
+  background-color: white;
+  margin-top: 130px;
+}
+
+.emiratos-cajas {
+  box-sizing: border-box;
+  background-color: red;
+  width: 500px;
+  height: 300px;
+}
+.emiratos-cajas .verde {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  background-color: red;
+}
+.emiratos-cajas .blanco {
+  margin-top: 100px;
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  background-color: white;
+}
+.emiratos-cajas .negro {
+  position: absolute;
+  margin-top: 200px;
+  width: 500px;
+  height: 100px;
+  background-color: black;
+}
+.emiratos-cajas .verde {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 120px;
+  height: 300px;
+  background-color: green;
+  z-index: 3;
+}

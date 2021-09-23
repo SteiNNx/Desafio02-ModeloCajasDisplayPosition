@@ -3,8 +3,10 @@
     "version": "1.0.0",
     "description": "sample template",
     "scripts": {
-      "sass": "sass --style=expanded --no-source-map assets/scss/main.scss assets/css/main.css"
+      "sass": "sass --style=expanded --no-source-map assets/scss/main.scss assets/css/main.css",
+      "sass:watch": "sass --style=expanded --no-source-map --watch assets/scss/main.scss assets/css/main.css"
     },
     "author": "Jorge Reyes",
+   
     "license": "ISC"
   }
